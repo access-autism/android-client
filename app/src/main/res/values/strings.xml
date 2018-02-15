@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Access-autism</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="password_hint">Password</string>
+    <string name="login_hint">Phone Number or Email</string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="sign_up_link">Sign Up Now</string>
+    <string name="no_account_text">You don\'t have an account?</string>
+    <string name="login_button">GO</string>
 </resources>
