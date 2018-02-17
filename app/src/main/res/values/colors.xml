@@ -3,11 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorButtonOrange">#F37A20</color>
+    <color name="colorButtonOrange">#f37a20</color>
     <color name="colorButtonGreen">#82BF6E</color>
     <color name="colorCardGray">#d7dae0</color>
     <color name="white">#fff</color>
-    <color name="black">#000</color>
+    <color name="black">#000000</color>
     <color name="colorButtonText">#088c91</color>
 
 </resources>

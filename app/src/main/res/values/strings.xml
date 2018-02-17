@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Access-autism</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
     <string name="child_registration_sign_up_title">Child registration</string>
+    <string name="child_registration_first_name">First Name</string>
+    <string name="child_registration_surname">Surname</string>
+    <string name="child_registration_address">Address</string>
+    <string name="child_registration_birth_date">Birth date (mm/dd/yyyy)</string>
+    <string name="child_registration_national_id">National ID (Optional)</string>
+    <string name="child_registration_diagnostic_status">Diagnostic status</string>
+    <string name="child_registration_needs_title">Needs</string>
+    <string name="child_registration_asd_features_title">ASD Features</string>
+    <string name="child_registration_assigned_provider_title">Assigned provider</string>
+    <string name="child_registration_description_title">Description (Optional)</string>
+    <string name="provider_sign_up_assigned_facility_title">Assigned facility</string>
+    <string name="provider_sign_up_speciality_title">Role / Speciality</string>
+
+
 </resources>
