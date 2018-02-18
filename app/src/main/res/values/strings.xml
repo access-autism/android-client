@@ -6,6 +6,7 @@
     <string name="phone_number_hint">Phone Number</string>
     <string name="password_hint">Password</string>
     <string name="login_hint">Phone Number or Email</string>
+    <string name="login_button">LOGIN</string>
     <string name="sign_up_button">SIGN UP</string>
     <string name="sign_up_link">Sign Up Now</string>
     <string name="no_account_text">You don\'t have an account?</string>
@@ -24,4 +25,6 @@
     <string name="child_registration_description_title">Description (Optional)</string>
     <string name="provider_sign_up_assigned_facility_title">Assigned facility</string>
     <string name="provider_sign_up_speciality_title">Role / Speciality</string>
+    <string name="missing_role_error_message">Select a valid role</string>
+    <string name="family_registration_permissions">Permissions setting</string>
 </resources>
