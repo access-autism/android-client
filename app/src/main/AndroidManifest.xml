@@ -17,10 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".FamilyCaregiverSignUpFormActivity" />
-        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".ProviderSignUpFormActivity" />
         <activity android:name=".FamilyCaregiverSignUpForm2Activity" />
-        <activity android:name=".FamilyCaregiverSignUpForm3Activity"/>
+        <activity android:name=".FamilyCaregiverSignUpForm3Activity" />
+        <activity android:name=".SkillsListActivity"></activity>
     </application>
 
 </manifest>

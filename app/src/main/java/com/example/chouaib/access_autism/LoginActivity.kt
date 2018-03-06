@@ -19,4 +19,9 @@ class LoginActivity : AppCompatActivity() {
         val intent = Intent(this, SignUpActivity::class.java)
         this.startActivity(intent)
     }
+
+    fun onClickLogin(v: View){
+        val intent = Intent(this, SkillsListActivity::class.java)
+        this.startActivity(intent)
+    }
 }
