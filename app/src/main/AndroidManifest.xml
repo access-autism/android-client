@@ -16,13 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FamilyCaregiverSignUpFormActivity" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+        <activity android:name=".FamilyCaregiverSignUpFormActivity" />
         <activity android:name=".SignUpActivity"/>
         <activity android:name=".ProviderSignUpFormActivity" />
         <activity android:name=".FamilyCaregiverSignUpForm2Activity" />
