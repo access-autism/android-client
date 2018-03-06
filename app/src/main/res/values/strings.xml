@@ -29,10 +29,12 @@
     <string name="family_registration_permissions">Permissions setting</string>
     <string name="title_placeholder">Title</string>
     <string name="news_placeholder">News</string>
-    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="skills_info_placeholder">more details</string>
+    <string name="description_label">Description</string>
 
     <string-array name="skills_titles">
         <item>Self Help</item>
+        <item>Healthy Lifestyle</item>
         <item>Playing</item>
         <item>Listening</item>
         <item>Problem Solving</item>
@@ -43,14 +45,27 @@
     </string-array>
 
     <string-array name="skills_info">
-        <item>Here a short description of Self Help!</item>
-        <item>Here a short description of Playing!</item>
-        <item>Here a short description of Listening!</item>
-        <item>Here a short description of Problem Solving!</item>
-        <item>Here a short description of Focus!</item>
-        <item>Here a short description of Understanding!</item>
-        <item>Here a short description of Speech!</item>
-        <item>Here a short description of Drawing!</item>
+        <item>More details about Self Help!</item>
+        <item>More details about Healthy Lifestyle!</item>
+        <item>More details about Playing!</item>
+        <item>More details about Listening!</item>
+        <item>More details about Problem Solving!</item>
+        <item>More details about Focus!</item>
+        <item>More details about Understanding!</item>
+        <item>More details about Speech!</item>
+        <item>More details about Drawing!</item>
     </string-array>
+
+    <array name="skills_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+    </array>
 
 </resources>
