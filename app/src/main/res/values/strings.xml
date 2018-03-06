@@ -27,4 +27,30 @@
     <string name="provider_sign_up_speciality_title">Role / Speciality</string>
     <string name="missing_role_error_message">Select a valid role</string>
     <string name="family_registration_permissions">Permissions setting</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+
+    <string-array name="skills_titles">
+        <item>Self Help</item>
+        <item>Playing</item>
+        <item>Listening</item>
+        <item>Problem Solving</item>
+        <item>Focus</item>
+        <item>Understanding</item>
+        <item>Speech</item>
+        <item>Drawing</item>
+    </string-array>
+
+    <string-array name="skills_info">
+        <item>Here a short description of Self Help!</item>
+        <item>Here a short description of Playing!</item>
+        <item>Here a short description of Listening!</item>
+        <item>Here a short description of Problem Solving!</item>
+        <item>Here a short description of Focus!</item>
+        <item>Here a short description of Understanding!</item>
+        <item>Here a short description of Speech!</item>
+        <item>Here a short description of Drawing!</item>
+    </string-array>
+
 </resources>
