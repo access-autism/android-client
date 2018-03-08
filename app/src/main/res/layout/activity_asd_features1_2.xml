@@ -26,7 +26,7 @@
             android:layout_height="match_parent">
 
             <ListView
-                android:id="@+id/sp_service_lsit"
+                android:id="@+id/sp_service_list"
                 style="@style/Widget.AppCompat.ListView"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -34,7 +34,6 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:entries="@array/special_services"
                 app:layout_constraintBottom_toTopOf="@+id/button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -95,9 +94,9 @@
                 android:inputType="textPersonName"
                 android:textSize="10sp"
                 android:visibility="gone"
-                app:layout_constraintBaseline_toBaselineOf="@+id/checkBox2"
+                app:layout_constraintBaseline_toBaselineOf="@+id/schoolBox"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/checkBox2" />
+                app:layout_constraintStart_toEndOf="@+id/schoolBox" />
 
             <EditText
                 android:id="@+id/daycareName"
@@ -110,9 +109,9 @@
                 android:inputType="textPersonName"
                 android:textSize="10sp"
                 android:visibility="gone"
-                app:layout_constraintBaseline_toBaselineOf="@+id/checkBox"
+                app:layout_constraintBaseline_toBaselineOf="@+id/daycareBox"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/checkBox2" />
+                app:layout_constraintStart_toEndOf="@+id/schoolBox" />
 
             <EditText
                 android:id="@+id/otherName"
@@ -125,12 +124,12 @@
                 android:inputType="textPersonName"
                 android:textSize="10sp"
                 android:visibility="gone"
-                app:layout_constraintBaseline_toBaselineOf="@+id/checkBox3"
+                app:layout_constraintBaseline_toBaselineOf="@+id/otherBox"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/checkBox3" />
+                app:layout_constraintStart_toEndOf="@+id/otherBox" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/schoolBox"
                 android:layout_width="33dp"
                 android:layout_height="21dp"
                 android:layout_marginStart="8dp"
@@ -140,7 +139,7 @@
                 android:layout_marginLeft="8dp" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/daycareBox"
                 android:layout_width="33dp"
                 android:layout_height="21dp"
                 android:layout_marginStart="8dp"
@@ -150,7 +149,7 @@
                 android:layout_marginLeft="8dp" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/otherBox"
                 android:layout_width="33dp"
                 android:layout_height="21dp"
                 android:layout_marginStart="8dp"

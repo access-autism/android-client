@@ -4,8 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AbsListView;
+import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
 public class AsdFeatures1_2 extends AppCompatActivity  {
 
@@ -14,9 +18,16 @@ public class AsdFeatures1_2 extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_asd_features1_2);
 
-        final CheckBox checkbox1 = findViewById(R.id.checkBox);
-        final CheckBox checkbox2 = findViewById(R.id.checkBox2);
-        final CheckBox checkbox3 = findViewById(R.id.checkBox3);
+        /* List adapter */
+        ListAdapter adapter = ArrayAdapter.createFromResource(this,R.array.special_services,android.R.layout.simple_list_item_multiple_choice);
+        ListView listView = findViewById(R.id.sp_service_list);
+        listView.setAdapter(adapter);
+        listView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
+
+        /*Dynamic content displaying*/
+        final CheckBox checkbox1 = findViewById(R.id.daycareBox);
+        final CheckBox checkbox2 = findViewById(R.id.schoolBox);
+        final CheckBox checkbox3 = findViewById(R.id.otherBox);
 
         checkbox1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             @Override
@@ -58,6 +69,7 @@ public class AsdFeatures1_2 extends AppCompatActivity  {
                 }
             }
         });
+
 
     }
 
