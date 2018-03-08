@@ -7,7 +7,7 @@
     <color name="colorButtonGreen">#82BF6E</color>
     <color name="colorCardGray">#d7dae0</color>
     <color name="white">#fff</color>
-    <color name="black">#000</color>
+    <color name="black">#000000</color>
     <color name="colorButtonText">#088c91</color>
     <color name="red">#FF0000</color>
 </resources>

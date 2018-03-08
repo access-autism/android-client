@@ -19,10 +19,13 @@
         <activity android:name=".FamilyCaregiverSignUpFormActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ProviderSignUpFormActivity" />
-        <activity android:name=".FamilyCaregiverSignUpForm2Activity" />
         <activity android:name=".FamilyCaregiverSignUpForm3Activity" />
         <activity android:name=".SkillsListActivity" />
-        <activity android:name=".SkillDetailActivity"></activity>
+        <activity android:name=".SkillDetailActivity" />
+        <activity android:name=".AsdFeatures1_1" />
+        <activity android:name=".AsdFeatures1_2" />
+        <activity android:name=".AsdFeatures1_3" />
+        <activity android:name=".AsdFeatures1_4"></activity>
     </application>
 
 </manifest>
