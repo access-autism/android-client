@@ -22,7 +22,7 @@
     <string name="child_registration_needs_title">Needs</string>
     <string name="child_registration_asd_features_title">ASD Features</string>
     <string name="child_registration_assigned_provider_title">Assigned provider</string>
-    <string name="child_registration_description_title">Description (Optional)</string>
+    <string name="child_registration_description_title">Additional description of the child (Optional)</string>
     <string name="provider_sign_up_assigned_facility_title">Assigned facility</string>
     <string name="provider_sign_up_speciality_title">Role / Speciality</string>
     <string name="missing_role_error_message">Select a valid role</string>
@@ -31,6 +31,11 @@
     <string name="news_placeholder">News</string>
     <string name="skills_info_placeholder">more details</string>
     <string name="description_label">Description</string>
+    <string name="name_placeholder">Name</string>
+    <string name="other_placeholder">Other</string>
+    <string name="yes_placeholder">Yes</string>
+    <string name="no_placeholder">No</string>
+    <string name="asd_features_warning">You will now have a set of questions to describe your child\'s ASD features.\nBe sure to have some time available to answer these questions !</string>
     <string name="asd_features_developmental_questions">My child doesn\'t do this</string>
     <string name="asd_features_developmental_question1">Smile</string>
     <string name="asd_features_developmental_question2">Pointing at objects</string>
@@ -39,8 +44,6 @@
     <string name="asd_features_questionYN2">Does your child talk?</string>
     <string name="asd_features_questionYN3">Do they ask questions?</string>
     <string name="asd_features_questionYN4">Do they speak in sentences?</string>
-    <string name="yes_placeholder">Yes</string>
-    <string name="no_placeholder">No</string>
     <string name="asd_features_communication1">How does your child communicate with you non-verbally?</string>
     <string name="asd_features_communication2">What types of communication does your child respond to?</string>
     <string name="asd_features_communication3">Why does your child communicate with other people?</string>
@@ -85,6 +88,42 @@
         <item>@drawable/img_soccer</item>
     </array>
 
+
+    <!-- ASD Features Questions -->
+    <string name="asd_features1_question1">Does your child currently attend a school or treatment program ?</string>
+    <string name="asdf_q1_i1">School</string>
+    <string name="asdf_q1_i2">Daycare</string>
+
+    <string name="asd_features1_question2">Does your child currently receive any special services ?</string>
+    <string-array name="special_services">
+        <item>ABA</item>
+        <item>OT</item>
+        <item>PT</item>
+        <item>Private support</item>
+    </string-array>
+
+    <string name="asd_features1_question3">Do you have any concerns regarding the development of your child ?</string>
+    <string-array name="concerns_list">
+        <item>Educational</item>
+        <item>Behavioral</item>
+    </string-array>
+    <string-array name="educational_concerns">
+        <item>Reading</item>
+        <item>Writing</item>
+        <item>Spelling</item>
+        <item>Attention</item>
+        <item>Memory</item>
+        <item>Organization</item>
+    </string-array>
+    <string-array name="behavioral_concerns">
+        <item>Sleeping</item>
+        <item>Eating</item>
+        <item>Playing</item>
+        <item>Toilet-training</item>
+    </string-array>
+
+    <string name="asd_features1_question4">Has your child been diagnosed with any of the following:</string>
+
     <string-array name="scales_responses">
         <item>A Lot</item>
         <item>Sometimes</item>
@@ -101,6 +140,7 @@
         <item>Choice 5</item>
         <item>Choice 6</item>
     </string-array>
+
 
 
 </resources>
