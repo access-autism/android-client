@@ -31,6 +31,23 @@
     <string name="news_placeholder">News</string>
     <string name="skills_info_placeholder">more details</string>
     <string name="description_label">Description</string>
+    <string name="asd_features_developmental_questions">My child doesn\'t do this</string>
+    <string name="asd_features_developmental_question1">Smile</string>
+    <string name="asd_features_developmental_question2">Pointing at objects</string>
+    <string name="asd_features_developmental_question3">Sit alone</string>
+    <string name="asd_features_questionYN1">Does your child sleep through the night?</string>
+    <string name="asd_features_questionYN2">Does your child talk?</string>
+    <string name="asd_features_questionYN3">Do they ask questions?</string>
+    <string name="asd_features_questionYN4">Do they speak in sentences?</string>
+    <string name="yes_placeholder">Yes</string>
+    <string name="no_placeholder">No</string>
+    <string name="asd_features_communication1">How does your child communicate with you non-verbally?</string>
+    <string name="asd_features_communication2">What types of communication does your child respond to?</string>
+    <string name="asd_features_communication3">Why does your child communicate with other people?</string>
+    <string name="asd_features_play1">Does your child play?</string>
+    <string name="asd_features_play2">How do they play?</string>
+    <string name="asd_features_emotional_question">Does your child experience any of the following:</string>
+    <string name="asd_features_skills_question">If you could select three things to make your life easier with your child, what would they be?</string>
 
     <string-array name="skills_titles">
         <item>Self Help</item>
@@ -67,5 +84,23 @@
         <item>@drawable/img_running</item>
         <item>@drawable/img_soccer</item>
     </array>
+
+    <string-array name="scales_responses">
+        <item>A Lot</item>
+        <item>Sometimes</item>
+        <item>Rarely</item>
+        <item>Never</item>
+    </string-array>
+
+
+    <string-array name="play_multiple_choices">
+        <item>Choice 1</item>
+        <item>Choice 2</item>
+        <item>Choice 3</item>
+        <item>Choice 4</item>
+        <item>Choice 5</item>
+        <item>Choice 6</item>
+    </string-array>
+
 
 </resources>

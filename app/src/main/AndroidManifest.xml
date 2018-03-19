@@ -9,20 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".FamilyCaregiverSignUpFormActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ProviderSignUpFormActivity" />
         <activity android:name=".FamilyCaregiverSignUpForm2Activity" />
         <activity android:name=".FamilyCaregiverSignUpForm3Activity" />
         <activity android:name=".SkillsListActivity" />
-        <activity android:name=".SkillDetailActivity"></activity>
+        <activity android:name=".SkillDetailActivity" />
+        <activity android:name=".ActivityAsdFeatures2_1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityAsdFeatures2_2" />
+        <activity android:name=".ActivityAsdFeatures2_3" />
+        <activity android:name=".activity_asd_features24" />
+        <activity android:name=".ActivityAsdFeatures2_4" />
+        <activity android:name=".ActivityAsdFeatures2_5" />
+        <activity android:name=".ActivityAsdFeatures2_6" />
+        <activity android:name=".ActivityAsdFeatures2_7" />
+        <activity android:name=".ActivityAsdFeatures2_8" />
+        <activity android:name=".ActivityAsdFeatures2_6_1"></activity>
     </application>
 
 </manifest>
