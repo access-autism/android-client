@@ -29,7 +29,6 @@
         <activity android:name=".ActivityAsdFeatures2_1"/>
         <activity android:name=".ActivityAsdFeatures2_2" />
         <activity android:name=".ActivityAsdFeatures2_3" />
-        <activity android:name=".activity_asd_features24" />
         <activity android:name=".ActivityAsdFeatures2_4" />
         <activity android:name=".ActivityAsdFeatures2_5" />
         <activity android:name=".ActivityAsdFeatures2_6" />

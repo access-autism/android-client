@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-client - Copie.iml" filepath="$PROJECT_DIR$/android-client - Copie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-client.iml" filepath="$PROJECT_DIR$/android-client.iml" />
+      <module fileurl="file://C:\Users\Stella\Desktop\fac\L3\Oulu\Demola\android-app\android-client\android-client - Copie.iml" filepath="C:\Users\Stella\Desktop\fac\L3\Oulu\Demola\android-app\android-client\android-client - Copie.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
