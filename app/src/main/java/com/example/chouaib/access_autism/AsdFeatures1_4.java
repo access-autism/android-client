@@ -29,8 +29,8 @@ public class AsdFeatures1_4 extends AppCompatActivity {
     }
 
     public void onClickNext(View view) {
-        //Complete with follow-up ASD features forms from Alexandra's branch
-        //Intent intent = new Intent(this, /*next_activity*/.class);
-        //startActivity(intent);
+
+        Intent intent = new Intent(this, ActivityAsdFeatures2_1.class);
+        startActivity(intent);
     }
 }
