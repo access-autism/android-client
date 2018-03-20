@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity">
-           <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -25,8 +25,8 @@
         <activity android:name=".AsdFeatures1_1" />
         <activity android:name=".AsdFeatures1_2" />
         <activity android:name=".AsdFeatures1_3" />
-        <activity android:name=".AsdFeatures1_4"/>
-        <activity android:name=".ActivityAsdFeatures2_1"/>
+        <activity android:name=".AsdFeatures1_4" />
+        <activity android:name=".ActivityAsdFeatures2_1" />
         <activity android:name=".ActivityAsdFeatures2_2" />
         <activity android:name=".ActivityAsdFeatures2_3" />
         <activity android:name=".ActivityAsdFeatures2_4" />
@@ -34,7 +34,8 @@
         <activity android:name=".ActivityAsdFeatures2_6" />
         <activity android:name=".ActivityAsdFeatures2_7" />
         <activity android:name=".ActivityAsdFeatures2_8" />
-        <activity android:name=".ActivityAsdFeatures2_6_1"/>
+        <activity android:name=".ActivityAsdFeatures2_6_1" />
+        <activity android:name=".FamilyDashboard"></activity>
     </application>
 
 </manifest>

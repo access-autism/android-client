@@ -13,7 +13,7 @@ class FamilyCaregiverSignUpFormActivity : AppCompatActivity() {
     }
 
     fun onClickNext(v: View){
-        val intent = Intent(this,FamilyCaregiverSignUpForm3Activity::class.java)
+        val intent = Intent(this,AsdFeatures1_1::class.java)
         this.startActivity(intent)
     }
 }

@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun onClickLogin(v: View){
-        val intent = Intent(this, SkillsListActivity::class.java )
+        val intent = Intent(this, FamilyDashboard::class.java )
         this.startActivity(intent)
     }
 }

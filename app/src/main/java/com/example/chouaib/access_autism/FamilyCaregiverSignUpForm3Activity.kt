@@ -14,7 +14,7 @@ class FamilyCaregiverSignUpForm3Activity : AppCompatActivity() {
 
     fun onClickNext(v: View){
         //Dashboard
-        //val intent = Intent(this, ::class.java)
-        //this.startActivity(intent)
+        val intent = Intent(this, FamilyDashboard::class.java)
+        this.startActivity(intent)
     }
 }
