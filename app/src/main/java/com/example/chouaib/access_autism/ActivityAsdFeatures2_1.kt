@@ -27,6 +27,7 @@ class ActivityAsdFeatures2_1 : AppCompatActivity() {
 
 
     fun onClickNext(v: View){
+        //if each value is selected
         if((numberPicker4.value!=0 || radioButton3.isChecked) &&(numberPicker5.value!=0 || radioButton4.isChecked)&& (numberPicker7.value!=0 || radioButton5.isChecked )) {
             val intent = Intent(this, ActivityAsdFeatures2_2::class.java)
             this.startActivity(intent)

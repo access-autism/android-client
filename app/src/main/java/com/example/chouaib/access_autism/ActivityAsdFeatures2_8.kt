@@ -20,6 +20,7 @@ class ActivityAsdFeatures2_8 : AppCompatActivity() {
     }
 
     fun onClickNext(v: View) {
+        //count the number of item selected
         var check=0
         val count = listView.count
         for (i in 0..count-1) {
@@ -30,6 +31,7 @@ class ActivityAsdFeatures2_8 : AppCompatActivity() {
             val intent = Intent(this, FamilyCaregiverSignUpForm3Activity::class.java)
             this.startActivity(intent)
         }
+        //if more or less than 3
         else{
             textError.text="Please select 3 items"
         }

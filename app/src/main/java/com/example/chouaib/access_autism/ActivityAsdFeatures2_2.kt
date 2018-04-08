@@ -16,6 +16,7 @@ class ActivityAsdFeatures2_2 : AppCompatActivity() {
 
 
     fun onClickNext (v: View){
+        //if one button have been selected (yes or no)
         if(radioGroup1.checkedRadioButtonId!=-1 && radioGroup2.checkedRadioButtonId!=-1 && radioGroup3.checkedRadioButtonId!=-1 && radioGroup4.checkedRadioButtonId!=-1){
             val intent = Intent(this, ActivityAsdFeatures2_3::class.java)
             this.startActivity(intent)

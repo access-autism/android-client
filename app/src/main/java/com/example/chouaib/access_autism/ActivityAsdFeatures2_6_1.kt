@@ -21,6 +21,7 @@ class ActivityAsdFeatures2_6_1 : AppCompatActivity() {
 
 
     fun onClickNext(v: View) {
+        //count the number of item selected
         var check=0
         val count = listView.count
         for (i in 0..count-1) {

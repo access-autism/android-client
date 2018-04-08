@@ -14,14 +14,6 @@ class ActivityAsdFeatures2_6 : AppCompatActivity() {
         setContentView(R.layout.activity_asd_features2_6)
     }
 
-    /*fun radioClick(v: View) {
-        val button = findViewById<RadioButton>(v.id)
-        if (button == radioButton2) {
-            radioButton.isChecked = false
-        } else
-            radioButton2.isChecked= false
-    }*/
-
 
 
     fun onClickNext(v: View) {
